@@ -1,0 +1,87 @@
+Introduction to SQL - SQL Overview, Definition of SQL, Importance of SQL in Database
+Management, DBMS-RDBMS
+
+-->  SQL is Structured Query Language, is the standard language used for interacting with relational databases. It is used to store, manipulate, and retrieve data        stored in databases.
+
+SQL is both a data definition language (DDL) and a data manipulation language (DML). It provides commands to:
+
+Create and modify database structures (tables, views, indexes).
+
+Insert, update, delete, and retrieve data.
+
+Define access permissions and transaction control.
+
+Definition of SQL
+SQL (Structured Query Language) is a standardized programming language used for managing and manipulating relational databases. It allows users to perform operations such as:
+
+Creating and modifying database schemas (DDL).
+
+Performing queries to fetch data (DQL).
+
+Inserting, updating, and deleting data (DML).
+
+Granting user permissions and managing transactions (DCL and TCL).
+
+Importance of SQL in Database Management
+SQL plays a critical role in Database Management Systems (DBMS) due to the following reasons:
+
+✅ Data Retrieval
+SQL enables users to extract meaningful data from large datasets using simple queries.
+
+✅ Data Manipulation
+It allows easy addition, deletion, and updating of records without touching the database structure.
+
+✅ Data Definition
+Users can define new tables, set primary and foreign keys, and change existing schemas.
+
+✅ Security and Access Control
+SQL provides access control through GRANT and REVOKE commands to define user roles and permissions.
+
+✅ Transaction Management
+SQL supports ACID (Atomicity, Consistency, Isolation, Durability) properties to ensure reliable transaction handling.
+
+✅ Integration with Programming Languages
+SQL can be embedded in languages like PHP, Python, Java, etc., to build full-fledged applications.
+
+DBMS is a general system for storing data, often unstructured or semi-structured.
+
+RDBMS is a more advanced system based on the relational model with structured storage, relationships, and powerful querying using SQL.
+
+
+
+
+
+
+SQL Syntax - Basic SQL Syntax, Structure of SQL Statements
+SQL Constraints - Types of Constraints (NOT NULL, UNIQUE, PRIMARY KEY, FOREIGN
+KEY), Implementing Constraints in Tables
+Main SQL Commands and Sub-commands - Data Definition Language (DDL), CREATE Command,
+Creating Tables, Specifying Column Names, Data Types, and Constraints
+ALTER Command - Modifying Existing Tables, Adding, Modifying, or Dropping Columns
+DROP Command - Deleting Tables from the Database
+Data Manipulation Language (DML) - INSERT Command, Adding Data into Tables Specifying
+Column Names and Values
+UPDATE Command - Modifying Existing Data in Tables, Changing Values in Specific Columns
+DELETE Command - Removing Data from Tables, Deleting Specific Rows with WHERE Clause
+Data Query Language (DQL) - SELECT Command, Retrieving Data from Tables, Filtering Data
+with WHERE Clause, Sorting Data with ORDER BY Clause, Limiting Results with LIMIT or
+FETCH FIRST Clause
+Data Control Language (DCL) -GRANT Command, Granting Privileges to Users or Roles, Granting
+SELECT, INSERT, UPDATE, DELETE Permissions
+REVOKE Command - Revoking Privileges from Users or Roles, Removing SELECT, INSERT,
+UPDATE, DELETE Permissions
+Transaction Control Language (TCL) - COMMIT Command, Saving Changes Permanently to the
+Database
+ROLLBACK Command - Reverting Uncommitted Changes, ?SAVEPOINT Command - Creating
+Intermediate Points in a Transaction for Rollback
+SQL Joins - Inner Join, Left Join, Right Join, Full Outer Join
+SQL Group By - Grouping Data in SQL Queries
+SQL Stored Procedure - Definition and Purpose of Stored Procedures, Creating and Executing Stored
+Procedures
+SQL View - Creating Views in SQL, Advantages of Using Views
+SQL Trigger - Introduction to Triggers, Types of Triggers (INSERT, UPDATE, DELETE)
+Introduction to PL/SQL - Definition and Purpose of PL/SQL, Benefits of Using PL/SQL
+PL/SQL Syntax - Structure of PL/SQL Blocks, Variables, Constants, and Data Types in PL/SQL
+PL/SQL Control Structures - IF-THEN, IF-THEN-ELSE, CASE Statements ,Loops (WHILE, FOR)
+SQL Cursor - Introduction to Cursors in PL/SQL, Implicit vs. Explicit Cursors
+Rollback and Commit Savepoint - Transaction Management in PL/SQL
